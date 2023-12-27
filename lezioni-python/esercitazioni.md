@@ -1,3 +1,5 @@
+> Con questi 8 dovrebbe andare meglio, piuttosto che 10 come promesso. In bocca al lupo! 💪
+
 # Esercizio 1
 Verifica se una stringa contiene solo numeri.
 Scrivi un programma che verifica se una stringa contiene solo numeri.
