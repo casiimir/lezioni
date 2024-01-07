@@ -1,41 +1,31 @@
-> Con questi 8 dovrebbe andare meglio, piuttosto che 10 come promesso. In bocca al lupo! 💪
+## Esercizi di Programmazione
 
-# Esercizio 1
-Verifica se una stringa contiene solo numeri.
-Scrivi un programma che verifica se una stringa contiene solo numeri.
-`stringa = "12345"`
+### Esercizio 1
+**Conta il numero di parole in una stringa.**  
+*Scrivi un programma che conta il numero di parole presenti in una stringa.*  
+`stringa = "Questo è un esempio di frase"`
 
-# Esercizio 2
-Inverti una stringa.
-Data una stringa, scrivi un programma che la inverte.
-`stringa = "Python"`
+### Esercizio 2
+**Sostituisci le vocali in una stringa con un altro carattere.**  
+*Scrivi un programma che sostituisce tutte le vocali in una stringa con un carattere specificato.*  
+`stringa = "esempio di frase"`, `carattere = "*"`
 
-# Esercizio 3
-Rimuovi gli elementi duplicati da una lista.
-Scrivi un programma che rimuove gli elementi duplicati da una lista.
-`lista = [1, 2, 2, 3, 3, 3, 4]`
-
-# Esercizio 4
-Converti una lista di numeri in una stringa.
-Scrivi un programma che converte una lista di numeri interi in una stringa.
-`lista = [1, 2, 3]`
-
-# Esercizio 5
-Conta le vocali in una stringa.
-Scrivi un programma che conta il numero di vocali in una stringa.
-`stringa = "esempio di frase"`
-
-# Esercizio 6
-Calcola la media di una lista di numeri.
-Scrivi un programma che calcola la media di una lista di numeri.
+### Esercizio 3
+**Calcola la somma di tutti i numeri in una lista.**  
+*Scrivi un programma che calcola la somma di tutti i numeri presenti in una lista.*  
 `lista = [1, 2, 3, 4, 5]`
 
-# Esercizio 7
-Trova il secondo numero più grande in una lista.
-Scrivi un programma che trova il secondo numero più grande in una lista di numeri.
-`lista = [1, 3, 4, 5, 2]`
+### Esercizio 4
+**Ordina una lista di stringhe per lunghezza.**  
+*Scrivi un programma che sostituisca le parole con il numero di caratteri che contiene*  
+`lista = ["mela", "banana", "pera", "anguria"]` `Ex. [4, 6, 4, 7]`
 
-# Esercizio 8
-Stampa la differenza tra gli elementi massimi e minimi di una lista.
-Scrivi un programma che calcola e stampa la differenza tra l'elemento più grande e quello più piccolo in una lista.
-`lista = [1, 2, 3, 4, 5]`
+### Esercizio 5
+**Verifica se un numero è primo.**  
+*Scrivi un programma che verifica se un dato numero è un numero primo. Un numero è primo quando è divisibile solo per se stesso e per 1*  
+`numero = 11`
+
+### Esercizio 6
+**Trova il numero più frequente in una lista.**  
+*Scrivi un programma che identifica il numero che appare più frequentemente in una lista.*  
+`lista = [1, 3, 3, 3, 2, 2, 4, 5]`
