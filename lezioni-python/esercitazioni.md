@@ -1,31 +1,70 @@
 ## Esercizi di Programmazione
 
-### Esercizio 1
-**Conta il numero di parole in una stringa.**  
-*Scrivi un programma che conta il numero di parole presenti in una stringa.*  
-`stringa = "Questo è un esempio di frase"`
+# Esercizi Python: Creazione di Funzioni
 
-### Esercizio 2
-**Sostituisci le vocali in una stringa con un altro carattere.**  
-*Scrivi un programma che sostituisce tutte le vocali in una stringa con un carattere specificato.*  
-`stringa = "esempio di frase"`, `carattere = "*"`
+## Esercizio 1: Conta il Numero di Parole in una Stringa
+**Consegna:** Scrivi una funzione che accetta una stringa come argomento e restituisce il numero di parole presenti in quella stringa.
 
-### Esercizio 3
-**Calcola la somma di tutti i numeri in una lista.**  
-*Scrivi un programma che calcola la somma di tutti i numeri presenti in una lista.*  
-`lista = [1, 2, 3, 4, 5]`
+### Esempio:
+```python
+def conta_parole(stringa):
+    # Il tuo codice qui
 
-### Esercizio 4
-**Ordina una lista di stringhe per lunghezza.**  
-*Scrivi un programma che sostituisca le parole con il numero di caratteri che contiene*  
-`lista = ["mela", "banana", "pera", "anguria"]` `Ex. [4, 6, 4, 7]`
+stringa = "Questo è un esempio di frase"
+print(conta_parole(stringa))  # Output atteso: 5
+```
 
-### Esercizio 5
-**Verifica se un numero è primo.**  
-*Scrivi un programma che verifica se un dato numero è un numero primo. Un numero è primo quando è divisibile solo per se stesso e per 1*  
-`numero = 11`
+## Esercizio 2: Sostituzione delle Vocali in una Stringa
+**Consegna:** Crea una funzione che prende due argomenti: una stringa e un carattere. La funzione deve sostituire tutte le vocali nella stringa con il carattere specificato e restituire la nuova stringa.
 
-### Esercizio 6
-**Trova il numero più frequente in una lista.**  
-*Scrivi un programma che identifica il numero che appare più frequentemente in una lista.*  
-`lista = [1, 3, 3, 3, 2, 2, 4, 5]`
+### Esempio:
+```python
+def sostituisci_vocali(stringa, carattere):
+    # Il tuo codice qui
+
+stringa = "esempio di frase"
+carattere = "*"
+print(sostituisci_vocali(stringa, carattere))  # Output atteso: "*s*mp** d* fr*s*"
+```
+
+## Esercizio 3: Calcola la Somma di Tutti i Numeri in una Lista
+**Consegna:** Implementa una funzione che calcola la somma di tutti i numeri presenti in una lista fornita come argomento.
+
+### Esempio:
+```python
+def somma_lista(lista):
+    # Il tuo codice qui
+
+lista = [1, 2, 3, 4, 5]
+print(somma_lista(lista))  # Output atteso: 15
+```
+
+## Esercizio 4: Ordina una Lista di Stringhe per Lunghezza
+**Consegna:** Scrivi una funzione che prende in input una lista di stringhe e restituisce una lista dei numeri corrispondenti alla lunghezza di ogni stringa.
+
+### Esempio:
+```python
+def ordina_per_lunghezza(lista):
+    # Il tuo codice qui
+
+lista = ["mela", "banana", "pera", "anguria"]
+print(ordina_per_lunghezza(lista))  # Output atteso: [4, 6, 4, 7]
+```
+
+## Esercizio 5: Somma dei Numeri Pari maggiori di 4 in una Lista
+**Consegna:** Scrivi una funzione che, data una lista di numeri, somma i soli numeri pari e maggiori di 4 della lista e stampa il risultato.
+
+## Esercizio 6: Trova il Numero Massimo Pari
+**Consegna:** Implementa una funzione che prende una lista di numeri e restituisce il numero pari più grande presente nella lista.
+
+## Esercizio 7: Conta gli Elementi Minori di un Valore
+**Consegna:** Crea una funzione che, data una lista di numeri e un numero limite, conta quanti elementi nella lista sono minori del limite.
+
+## Esercizio 8: Filtra i Numeri Negativi
+**Consegna:** Scrivi una funzione che riceve in input una lista di numeri e restituisce una nuova lista contenente solo i numeri positivi.
+
+## Esercizio 9: Moltiplica i Numeri a Indici Pari
+**Consegna:** Implementa una funzione che moltiplica tutti i numeri che si trovano in posizioni pari (considerando il primo elemento in posizione 0) in una lista e restituisce il prodotto.
+
+## Esercizio 10: Inverti Lista senza Numeri Divisibili per 3
+**Consegna:** Crea una funzione che prende una lista di numeri e restituisce una nuova lista con gli stessi elementi in ordine inverso, escludendo i numeri divisibili per 3.
