@@ -1,70 +1,67 @@
-## Esercizi di Programmazione
 
-# Esercizi Python: Creazione di Funzioni
+# Esercizi di Programmazione
 
-## Esercizio 1: Conta il Numero di Parole in una Stringa
-**Consegna:** Scrivi una funzione che accetta una stringa come argomento e restituisce il numero di parole presenti in quella stringa.
+## Esercizi Python: Creazione di Funzioni
 
-### Esempio:
+### Esercizio 1: Trova la Parola più Lunga
+**Consegna:** Scrivi una funzione che accetta una stringa come argomento e restituisce la parola più lunga presente nella stringa.
+
 ```python
-def conta_parole(stringa):
+def trova_parola_piu_lunga(stringa):
     # Il tuo codice qui
 
 stringa = "Questo è un esempio di frase"
-print(conta_parole(stringa))  # Output atteso: 5
+print(trova_parola_piu_lunga(stringa))  # Output atteso: "esempio"
 ```
 
-## Esercizio 2: Sostituzione delle Vocali in una Stringa
-**Consegna:** Crea una funzione che prende due argomenti: una stringa e un carattere. La funzione deve sostituire tutte le vocali nella stringa con il carattere specificato e restituire la nuova stringa.
+### Esercizio 2: Sostituzione delle Consonanti in una Stringa
+**Consegna:** Crea una funzione che prende due argomenti: una stringa e un carattere. La funzione deve sostituire tutte le consonanti nella stringa con il carattere specificato e restituire la nuova stringa.
 
-### Esempio:
 ```python
-def sostituisci_vocali(stringa, carattere):
+def sostituisci_consonanti(stringa, carattere):
     # Il tuo codice qui
 
 stringa = "esempio di frase"
 carattere = "*"
-print(sostituisci_vocali(stringa, carattere))  # Output atteso: "*s*mp** d* fr*s*"
+print(sostituisci_consonanti(stringa, carattere))  # Output atteso: "e*e**io *i *a*e"
 ```
 
-## Esercizio 3: Calcola la Somma di Tutti i Numeri in una Lista
-**Consegna:** Implementa una funzione che calcola la somma di tutti i numeri presenti in una lista fornita come argomento.
+### Esercizio 3: Trova il Numero più Piccolo in una Lista
+**Consegna:** Implementa una funzione che trova il numero più piccolo presente in una lista fornita come argomento.
 
-### Esempio:
 ```python
-def somma_lista(lista):
+def trova_minimo(lista):
     # Il tuo codice qui
 
-lista = [1, 2, 3, 4, 5]
-print(somma_lista(lista))  # Output atteso: 15
+lista = [5, 3, 9, 1, 6]
+print(trova_minimo(lista))  # Output atteso: 1
 ```
 
-## Esercizio 4: Ordina una Lista di Stringhe per Lunghezza
+### Esercizio 4: Crea una Lista delle Lunghezze delle Parole
 **Consegna:** Scrivi una funzione che prende in input una lista di stringhe e restituisce una lista dei numeri corrispondenti alla lunghezza di ogni stringa.
 
-### Esempio:
 ```python
-def ordina_per_lunghezza(lista):
+def lunghezza_parole(lista):
     # Il tuo codice qui
 
 lista = ["mela", "banana", "pera", "anguria"]
-print(ordina_per_lunghezza(lista))  # Output atteso: [4, 6, 4, 7]
+print(lunghezza_parole(lista))  # Output atteso: [4, 6, 4, 7]
 ```
 
-## Esercizio 5: Somma dei Numeri Pari maggiori di 4 in una Lista
+### Esercizio 5: Somma dei Numeri Pari maggiori di 4 in una Lista
 **Consegna:** Scrivi una funzione che, data una lista di numeri, somma i soli numeri pari e maggiori di 4 della lista e stampa il risultato.
 
-## Esercizio 6: Trova il Numero Massimo Pari
+### Esercizio 6: Trova il Numero Massimo Pari
 **Consegna:** Implementa una funzione che prende una lista di numeri e restituisce il numero pari più grande presente nella lista.
 
-## Esercizio 7: Conta gli Elementi Minori di un Valore
+### Esercizio 7: Conta gli Elementi Minori di un Valore
 **Consegna:** Crea una funzione che, data una lista di numeri e un numero limite, conta quanti elementi nella lista sono minori del limite.
 
-## Esercizio 8: Filtra i Numeri Negativi
+### Esercizio 8: Filtra i Numeri Negativi
 **Consegna:** Scrivi una funzione che riceve in input una lista di numeri e restituisce una nuova lista contenente solo i numeri positivi.
 
-## Esercizio 9: Moltiplica i Numeri a Indici Pari
+### Esercizio 9: Moltiplica i Numeri a Indici Pari
 **Consegna:** Implementa una funzione che moltiplica tutti i numeri che si trovano in posizioni pari (considerando il primo elemento in posizione 0) in una lista e restituisce il prodotto.
 
-## Esercizio 10: Inverti Lista senza Numeri Divisibili per 3
+### Esercizio 10: Inverti Lista senza Numeri Divisibili per 3
 **Consegna:** Crea una funzione che prende una lista di numeri e restituisce una nuova lista con gli stessi elementi in ordine inverso, escludendo i numeri divisibili per 3.
